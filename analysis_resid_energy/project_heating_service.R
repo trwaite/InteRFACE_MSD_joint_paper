@@ -7,7 +7,7 @@ Btu_to_GJ <- 1.055e-6
 tonne_per_kg <- 10^-3
 
 # assumed base year heating satiation levels
-# (see historical_data/AHFC_2018_housing_assessment.xlsx)
+# (see resid_energy_demand_inputs/AHFC_2018_housing_assessment.xlsx)
 NSB_satiation_level <- 1.018
 NAB_satiation_level <- 0.908
 
