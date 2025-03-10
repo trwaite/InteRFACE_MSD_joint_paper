@@ -1,0 +1,558 @@
+year,type,value
+1959,petroleum property tax,0
+1960,petroleum property tax,0
+1961,petroleum property tax,0
+1962,petroleum property tax,0
+1963,petroleum property tax,0
+1964,petroleum property tax,0
+1965,petroleum property tax,0
+1966,petroleum property tax,0
+1967,petroleum property tax,0
+1968,petroleum property tax,0
+1969,petroleum property tax,0
+1970,petroleum property tax,0
+1971,petroleum property tax,0
+1972,petroleum property tax,0
+1973,petroleum property tax,0
+1974,petroleum property tax,0
+1975,petroleum property tax,6.6
+1976,petroleum property tax,83.4
+1977,petroleum property tax,139.1
+1978,petroleum property tax,173
+1979,petroleum property tax,163.4
+1980,petroleum property tax,168.9
+1981,petroleum property tax,143
+1982,petroleum property tax,142.7
+1983,petroleum property tax,152.6
+1984,petroleum property tax,131
+1985,petroleum property tax,128.4
+1986,petroleum property tax,113.5
+1987,petroleum property tax,102.5
+1988,petroleum property tax,96.2
+1989,petroleum property tax,89.7
+1990,petroleum property tax,89.8
+1991,petroleum property tax,85
+1992,petroleum property tax,69
+1993,petroleum property tax,66.9
+1994,petroleum property tax,61.5
+1995,petroleum property tax,57.3
+1996,petroleum property tax,56
+1997,petroleum property tax,53.6
+1998,petroleum property tax,51.3
+1999,petroleum property tax,48.8
+2000,petroleum property tax,45
+2001,petroleum property tax,45.1
+2002,petroleum property tax,49.6
+2003,petroleum property tax,48.7
+2004,petroleum property tax,47.3
+2005,petroleum property tax,42.5
+2006,petroleum property tax,54.5
+2007,petroleum property tax,65.6
+2008,petroleum property tax,81.5
+2009,petroleum property tax,111.2
+2010,petroleum property tax,118.8
+2011,petroleum property tax,110.7
+2012,petroleum property tax,111.2
+2013,petroleum property tax,99.3
+2014,petroleum property tax,128.1
+2015,petroleum property tax,125.2
+2016,petroleum property tax,111.7
+2017,petroleum property tax,120.4
+2018,petroleum property tax,121.6
+2019,petroleum property tax,119.5
+2020,petroleum property tax,122.9
+2021,petroleum property tax,119.2
+1959,petroleum corporate tax,0
+1960,petroleum corporate tax,0
+1961,petroleum corporate tax,0
+1962,petroleum corporate tax,0
+1963,petroleum corporate tax,0
+1964,petroleum corporate tax,0
+1965,petroleum corporate tax,0
+1966,petroleum corporate tax,0
+1967,petroleum corporate tax,0
+1968,petroleum corporate tax,0.1
+1969,petroleum corporate tax,0.1
+1970,petroleum corporate tax,0.4
+1971,petroleum corporate tax,0.9
+1972,petroleum corporate tax,1.2
+1973,petroleum corporate tax,0.9
+1974,petroleum corporate tax,1.2
+1975,petroleum corporate tax,2.5
+1976,petroleum corporate tax,4.9
+1977,petroleum corporate tax,5
+1978,petroleum corporate tax,8.4
+1979,petroleum corporate tax,232.6
+1980,petroleum corporate tax,547.5
+1981,petroleum corporate tax,860.1
+1982,petroleum corporate tax,668.9
+1983,petroleum corporate tax,236
+1984,petroleum corporate tax,265.1
+1985,petroleum corporate tax,168.6
+1986,petroleum corporate tax,133.9
+1987,petroleum corporate tax,120.4
+1988,petroleum corporate tax,158
+1989,petroleum corporate tax,166
+1990,petroleum corporate tax,117.2
+1991,petroleum corporate tax,185.1
+1992,petroleum corporate tax,165.5
+1993,petroleum corporate tax,117.6
+1994,petroleum corporate tax,17.8
+1995,petroleum corporate tax,128.5
+1996,petroleum corporate tax,173.7
+1997,petroleum corporate tax,269.4
+1998,petroleum corporate tax,200.1
+1999,petroleum corporate tax,145.1
+2000,petroleum corporate tax,162.7
+2001,petroleum corporate tax,338.1
+2002,petroleum corporate tax,178.4
+2003,petroleum corporate tax,151.1
+2004,petroleum corporate tax,298.8
+2005,petroleum corporate tax,524
+2006,petroleum corporate tax,661.1
+2007,petroleum corporate tax,594.4
+2008,petroleum corporate tax,605.8
+2009,petroleum corporate tax,492.2
+2010,petroleum corporate tax,446.1
+2011,petroleum corporate tax,542.1
+2012,petroleum corporate tax,568.8
+2013,petroleum corporate tax,434.6
+2014,petroleum corporate tax,307.6
+2015,petroleum corporate tax,94.8
+2016,petroleum corporate tax,-58.8
+2017,petroleum corporate tax,-59.4
+2018,petroleum corporate tax,67.9
+2019,petroleum corporate tax,217.7
+2020,petroleum corporate tax,-0.2
+2021,petroleum corporate tax,-19.4
+1959,oil and gas production tax,0
+1960,oil and gas production tax,0
+1961,oil and gas production tax,0
+1962,oil and gas production tax,0.2
+1963,oil and gas production tax,0.3
+1964,oil and gas production tax,0.3
+1965,oil and gas production tax,0.3
+1966,oil and gas production tax,0.3
+1967,oil and gas production tax,0.5
+1968,oil and gas production tax,2
+1969,oil and gas production tax,5.6
+1970,oil and gas production tax,7.9
+1971,oil and gas production tax,10.5
+1972,oil and gas production tax,11.4
+1973,oil and gas production tax,12
+1974,oil and gas production tax,14.8
+1975,oil and gas production tax,26.6
+1976,oil and gas production tax,27.9
+1977,oil and gas production tax,23.7
+1978,oil and gas production tax,107.6
+1979,oil and gas production tax,173.6
+1980,oil and gas production tax,506.2
+1981,oil and gas production tax,1169.9
+1982,oil and gas production tax,1581.1
+1983,oil and gas production tax,1493
+1984,oil and gas production tax,1392.4
+1985,oil and gas production tax,1388.7
+1986,oil and gas production tax,1107.4
+1987,oil and gas production tax,647.3
+1988,oil and gas production tax,816.4
+1989,oil and gas production tax,696.4
+1990,oil and gas production tax,972.3
+1991,oil and gas production tax,1253.8
+1992,oil and gas production tax,1022.2
+1993,oil and gas production tax,989.4
+1994,oil and gas production tax,662.8
+1995,oil and gas production tax,769.8
+1996,oil and gas production tax,771.7
+1997,oil and gas production tax,907
+1998,oil and gas production tax,564.4
+1999,oil and gas production tax,358.6
+2000,oil and gas production tax,693.2
+2001,oil and gas production tax,694.4
+2002,oil and gas production tax,486.7
+2003,oil and gas production tax,589.8
+2004,oil and gas production tax,642.7
+2005,oil and gas production tax,854.9
+2006,oil and gas production tax,1191.7
+2007,oil and gas production tax,2198.3
+2008,oil and gas production tax,6810.9
+2009,oil and gas production tax,3100.9
+2010,oil and gas production tax,2860.7
+2011,oil and gas production tax,4543.2
+2012,oil and gas production tax,6136.7
+2013,oil and gas production tax,4042.5
+2014,oil and gas production tax,2605.9
+2015,oil and gas production tax,381.6
+2016,oil and gas production tax,176.8
+2017,oil and gas production tax,125.9
+2018,oil and gas production tax,741.2
+2019,oil and gas production tax,595.5
+2020,oil and gas production tax,285.1
+2021,oil and gas production tax,389
+1959,oil and gas conservation,0
+1960,oil and gas conservation,0
+1961,oil and gas conservation,0
+1962,oil and gas conservation,0
+1963,oil and gas conservation,0
+1964,oil and gas conservation,0
+1965,oil and gas conservation,0
+1966,oil and gas conservation,0
+1967,oil and gas conservation,0
+1968,oil and gas conservation,0
+1969,oil and gas conservation,0
+1970,oil and gas conservation,0
+1971,oil and gas conservation,0
+1972,oil and gas conservation,0
+1973,oil and gas conservation,0
+1974,oil and gas conservation,0
+1975,oil and gas conservation,0
+1976,oil and gas conservation,0.1
+1977,oil and gas conservation,0.1
+1978,oil and gas conservation,0.1
+1979,oil and gas conservation,0.2
+1980,oil and gas conservation,0.3
+1981,oil and gas conservation,0.3
+1982,oil and gas conservation,0.6
+1983,oil and gas conservation,0.7
+1984,oil and gas conservation,0.7
+1985,oil and gas conservation,0.7
+1986,oil and gas conservation,0.5
+1987,oil and gas conservation,1.2
+1988,oil and gas conservation,2.3
+1989,oil and gas conservation,2.4
+1990,oil and gas conservation,2.4
+1991,oil and gas conservation,2.3
+1992,oil and gas conservation,2.3
+1993,oil and gas conservation,2.1
+1994,oil and gas conservation,2.3
+1995,oil and gas conservation,2
+1996,oil and gas conservation,1.8
+1997,oil and gas conservation,1.7
+1998,oil and gas conservation,1.6
+1999,oil and gas conservation,1.4
+2000,oil and gas conservation,0
+2001,oil and gas conservation,0
+2002,oil and gas conservation,0
+2003,oil and gas conservation,0
+2004,oil and gas conservation,0
+2005,oil and gas conservation,0
+2006,oil and gas conservation,0
+2007,oil and gas conservation,0
+2008,oil and gas conservation,0
+2009,oil and gas conservation,0
+2010,oil and gas conservation,0
+2011,oil and gas conservation,0
+2012,oil and gas conservation,0
+2013,oil and gas conservation,0
+2014,oil and gas conservation,0
+2015,oil and gas conservation,0
+2016,oil and gas conservation,0
+2017,oil and gas conservation,0
+2018,oil and gas conservation,0
+1959,oil and gas hazardous release,0
+1960,oil and gas hazardous release,0
+1961,oil and gas hazardous release,0
+1962,oil and gas hazardous release,0
+1963,oil and gas hazardous release,0
+1964,oil and gas hazardous release,0
+1965,oil and gas hazardous release,0
+1966,oil and gas hazardous release,0
+1967,oil and gas hazardous release,0
+1968,oil and gas hazardous release,0
+1969,oil and gas hazardous release,0
+1970,oil and gas hazardous release,0
+1971,oil and gas hazardous release,0
+1972,oil and gas hazardous release,0
+1973,oil and gas hazardous release,0
+1974,oil and gas hazardous release,0
+1975,oil and gas hazardous release,0
+1976,oil and gas hazardous release,0
+1977,oil and gas hazardous release,0
+1978,oil and gas hazardous release,0
+1979,oil and gas hazardous release,0
+1980,oil and gas hazardous release,0
+1981,oil and gas hazardous release,0
+1982,oil and gas hazardous release,0
+1983,oil and gas hazardous release,0
+1984,oil and gas hazardous release,0
+1985,oil and gas hazardous release,0
+1986,oil and gas hazardous release,0
+1987,oil and gas hazardous release,0
+1988,oil and gas hazardous release,0
+1989,oil and gas hazardous release,0
+1990,oil and gas hazardous release,26.9
+1991,oil and gas hazardous release,28
+1992,oil and gas hazardous release,28.7
+1993,oil and gas hazardous release,26.1
+1994,oil and gas hazardous release,27
+1995,oil and gas hazardous release,22.1
+1996,oil and gas hazardous release,13.7
+1997,oil and gas hazardous release,12.9
+1998,oil and gas hazardous release,11.8
+1999,oil and gas hazardous release,11.1
+2000,oil and gas hazardous release,9.5
+2001,oil and gas hazardous release,9.4
+2002,oil and gas hazardous release,9.6
+2003,oil and gas hazardous release,9.2
+2004,oil and gas hazardous release,9.2
+2005,oil and gas hazardous release,8.3
+2006,oil and gas hazardous release,7.8
+2007,oil and gas hazardous release,10.1
+2008,oil and gas hazardous release,11.7
+2009,oil and gas hazardous release,11.1
+2010,oil and gas hazardous release,10.3
+2011,oil and gas hazardous release,9.7
+2012,oil and gas hazardous release,9.4
+2013,oil and gas hazardous release,7.8
+2014,oil and gas hazardous release,8.8
+2015,oil and gas hazardous release,8.1
+2016,oil and gas hazardous release,9.2
+2017,oil and gas hazardous release,8.6
+2018,oil and gas hazardous release,8.7
+1959,oil and gas royalties,0
+1960,oil and gas royalties,0
+1961,oil and gas royalties,2.4
+1962,oil and gas royalties,4.5
+1963,oil and gas royalties,18.9
+1964,oil and gas royalties,5.9
+1965,oil and gas royalties,8.4
+1966,oil and gas royalties,7.9
+1967,oil and gas royalties,9.6
+1968,oil and gas royalties,17
+1969,oil and gas royalties,24.7
+1970,oil and gas royalties,27.5
+1971,oil and gas royalties,32.6
+1972,oil and gas royalties,30.1
+1973,oil and gas royalties,27.8
+1974,oil and gas royalties,35.8
+1975,oil and gas royalties,49.8
+1976,oil and gas royalties,48.4
+1977,oil and gas royalties,36.3
+1978,oil and gas royalties,150.6
+1979,oil and gas royalties,250.2
+1980,oil and gas royalties,689.4
+1981,oil and gas royalties,1119.7
+1982,oil and gas royalties,1174.4
+1983,oil and gas royalties,1105.6
+1984,oil and gas royalties,1058.5
+1985,oil and gas royalties,1042.2
+1986,oil and gas royalties,845
+1987,oil and gas royalties,448.3
+1988,oil and gas royalties,701.5
+1989,oil and gas royalties,611.5
+1990,oil and gas royalties,753.7
+1991,oil and gas royalties,958.7
+1992,oil and gas royalties,708.2
+1993,oil and gas royalties,716.7
+1994,oil and gas royalties,516.1
+1995,oil and gas royalties,631.8
+1996,oil and gas royalties,642.2
+1997,oil and gas royalties,759.2
+1998,oil and gas royalties,480.4
+1999,oil and gas royalties,322.6
+2000,oil and gas royalties,727.8
+2001,oil and gas royalties,781
+2002,oil and gas royalties,575.7
+2003,oil and gas royalties,825.7
+2004,oil and gas royalties,1042.8
+2005,oil and gas royalties,1401.1
+2006,oil and gas royalties,1772.2
+2007,oil and gas royalties,1583.8
+2008,oil and gas royalties,2420.6
+2009,oil and gas royalties,1451.2
+2010,oil and gas royalties,1469
+2011,oil and gas royalties,1821.3
+2012,oil and gas royalties,2022.8
+2013,oil and gas royalties,1748.4
+2014,oil and gas royalties,1685
+2015,oil and gas royalties,1052.1
+2016,oil and gas royalties,840.3
+2017,oil and gas royalties,676.2
+2018,oil and gas royalties,977.8
+2019,oil and gas royalties,1077.2
+2020,oil and gas royalties,660.3
+2021,oil and gas royalties,728.8
+1959,"oil and gas bonuses, rents, interest",3.1
+1960,"oil and gas bonuses, rents, interest",9.9
+1961,"oil and gas bonuses, rents, interest",1.7
+1962,"oil and gas bonuses, rents, interest",21.3
+1963,"oil and gas bonuses, rents, interest",8.6
+1964,"oil and gas bonuses, rents, interest",8.7
+1965,"oil and gas bonuses, rents, interest",7.7
+1966,"oil and gas bonuses, rents, interest",13.3
+1967,"oil and gas bonuses, rents, interest",11.3
+1968,"oil and gas bonuses, rents, interest",24.7
+1969,"oil and gas bonuses, rents, interest",4.1
+1970,"oil and gas bonuses, rents, interest",903.1
+1971,"oil and gas bonuses, rents, interest",3.2
+1972,"oil and gas bonuses, rents, interest",5.5
+1973,"oil and gas bonuses, rents, interest",9.5
+1974,"oil and gas bonuses, rents, interest",28.4
+1975,"oil and gas bonuses, rents, interest",4.9
+1976,"oil and gas bonuses, rents, interest",3.7
+1977,"oil and gas bonuses, rents, interest",2.8
+1978,"oil and gas bonuses, rents, interest",1.8
+1979,"oil and gas bonuses, rents, interest",1.6
+1980,"oil and gas bonuses, rents, interest",344.2
+1981,"oil and gas bonuses, rents, interest",11.3
+1982,"oil and gas bonuses, rents, interest",7.1
+1983,"oil and gas bonuses, rents, interest",38.7
+1984,"oil and gas bonuses, rents, interest",13.9
+1985,"oil and gas bonuses, rents, interest",14.9
+1986,"oil and gas bonuses, rents, interest",38.9
+1987,"oil and gas bonuses, rents, interest",4.3
+1988,"oil and gas bonuses, rents, interest",11.3
+1989,"oil and gas bonuses, rents, interest",16.7
+1990,"oil and gas bonuses, rents, interest",4.2
+1991,"oil and gas bonuses, rents, interest",24.7
+1992,"oil and gas bonuses, rents, interest",6.8
+1993,"oil and gas bonuses, rents, interest",44.3
+1994,"oil and gas bonuses, rents, interest",5.1
+1995,"oil and gas bonuses, rents, interest",5
+1996,"oil and gas bonuses, rents, interest",5.7
+1997,"oil and gas bonuses, rents, interest",6.4
+1998,"oil and gas bonuses, rents, interest",23
+1999,"oil and gas bonuses, rents, interest",25.6
+2000,"oil and gas bonuses, rents, interest",4.1
+2001,"oil and gas bonuses, rents, interest",18.3
+2002,"oil and gas bonuses, rents, interest",20.1
+2003,"oil and gas bonuses, rents, interest",14.6
+2004,"oil and gas bonuses, rents, interest",13.3
+2005,"oil and gas bonuses, rents, interest",18.8
+2006,"oil and gas bonuses, rents, interest",11.9
+2007,"oil and gas bonuses, rents, interest",29.2
+2008,"oil and gas bonuses, rents, interest",25.5
+2009,"oil and gas bonuses, rents, interest",14.4
+2010,"oil and gas bonuses, rents, interest",8
+2011,"oil and gas bonuses, rents, interest",22
+2012,"oil and gas bonuses, rents, interest",8.9
+2013,"oil and gas bonuses, rents, interest",19.4
+2014,"oil and gas bonuses, rents, interest",27.4
+2015,"oil and gas bonuses, rents, interest",26.1
+2016,"oil and gas bonuses, rents, interest",30.3
+2017,"oil and gas bonuses, rents, interest",5.3
+2018,"oil and gas bonuses, rents, interest",24.5
+2019,"oil and gas bonuses, rents, interest",37.5
+2020,"oil and gas bonuses, rents, interest",15
+1959,petroleum special settlements,0
+1960,petroleum special settlements,0
+1961,petroleum special settlements,0
+1962,petroleum special settlements,0
+1963,petroleum special settlements,0
+1964,petroleum special settlements,0
+1965,petroleum special settlements,0
+1966,petroleum special settlements,0
+1967,petroleum special settlements,0
+1968,petroleum special settlements,0
+1969,petroleum special settlements,0
+1970,petroleum special settlements,0
+1971,petroleum special settlements,0
+1972,petroleum special settlements,0
+1973,petroleum special settlements,0
+1974,petroleum special settlements,0
+1975,petroleum special settlements,0
+1976,petroleum special settlements,0
+1977,petroleum special settlements,0
+1978,petroleum special settlements,0
+1979,petroleum special settlements,0
+1980,petroleum special settlements,0
+1981,petroleum special settlements,0
+1982,petroleum special settlements,0
+1983,petroleum special settlements,0
+1984,petroleum special settlements,0
+1985,petroleum special settlements,0
+1986,petroleum special settlements,418.2
+1987,petroleum special settlements,70.5
+1988,petroleum special settlements,163.9
+1989,petroleum special settlements,257.7
+1990,petroleum special settlements,154.8
+1991,petroleum special settlements,33.5
+1992,petroleum special settlements,4.7
+1993,petroleum special settlements,4.7
+1994,petroleum special settlements,0.1
+1995,petroleum special settlements,0.7
+1996,petroleum special settlements,0
+1997,petroleum special settlements,0
+1998,petroleum special settlements,0
+1999,petroleum special settlements,0
+2000,petroleum special settlements,0
+2001,petroleum special settlements,0
+2002,petroleum special settlements,0
+2003,petroleum special settlements,0
+2004,petroleum special settlements,0
+2005,petroleum special settlements,0
+2006,petroleum special settlements,0
+2007,petroleum special settlements,0
+2008,petroleum special settlements,0
+2009,petroleum special settlements,0
+2010,petroleum special settlements,0
+2011,petroleum special settlements,0
+2012,petroleum special settlements,0
+2013,petroleum special settlements,0
+2014,petroleum special settlements,0
+2015,petroleum special settlements,0
+2016,petroleum special settlements,0
+2017,petroleum special settlements,0
+2018,petroleum special settlements,0
+1959,restricted petroleum revenue,0
+1960,restricted petroleum revenue,0
+1961,restricted petroleum revenue,0
+1962,restricted petroleum revenue,0
+1963,restricted petroleum revenue,0.1
+1964,restricted petroleum revenue,0.1
+1965,restricted petroleum revenue,0.1
+1966,restricted petroleum revenue,0.1
+1967,restricted petroleum revenue,0.1
+1968,restricted petroleum revenue,0.2
+1969,restricted petroleum revenue,0.3
+1970,restricted petroleum revenue,0.3
+1971,restricted petroleum revenue,0.1
+1972,restricted petroleum revenue,0
+1973,restricted petroleum revenue,0
+1974,restricted petroleum revenue,0
+1975,restricted petroleum revenue,0
+1976,restricted petroleum revenue,0
+1977,restricted petroleum revenue,4.1
+1978,restricted petroleum revenue,51.4
+1979,restricted petroleum revenue,85.6
+1980,restricted petroleum revenue,351.7
+1981,restricted petroleum revenue,1292.8
+1982,restricted petroleum revenue,1208.5
+1983,restricted petroleum revenue,830.4
+1984,restricted petroleum revenue,675.2
+1985,restricted petroleum revenue,680.5
+1986,restricted petroleum revenue,346.6
+1987,restricted petroleum revenue,183.8
+1988,restricted petroleum revenue,425.5
+1989,restricted petroleum revenue,233.5
+1990,restricted petroleum revenue,272.8
+1991,restricted petroleum revenue,758.1
+1992,restricted petroleum revenue,790.4
+1993,restricted petroleum revenue,1189.9
+1994,restricted petroleum revenue,565.4
+1995,restricted petroleum revenue,1784.6
+1996,restricted petroleum revenue,820.2
+1997,restricted petroleum revenue,880.3
+1998,restricted petroleum revenue,577.1
+1999,restricted petroleum revenue,213.3
+2000,restricted petroleum revenue,795.1
+2001,restricted petroleum revenue,395.7
+2002,restricted petroleum revenue,353.9
+2003,restricted petroleum revenue,460.7
+2004,restricted petroleum revenue,372.7
+2005,restricted petroleum revenue,545.5
+2006,restricted petroleum revenue,659.7
+2007,restricted petroleum revenue,660.3
+2008,restricted petroleum revenue,1332.1
+2009,restricted petroleum revenue,888.2
+2010,restricted petroleum revenue,1281.2
+2011,restricted petroleum revenue,1041.2
+2012,restricted petroleum revenue,1027.2
+2013,restricted petroleum revenue,1216.9
+2014,restricted petroleum revenue,970.4
+2015,restricted petroleum revenue,671.4
+2016,restricted petroleum revenue,517.8
+2017,restricted petroleum revenue,823.7
+2018,restricted petroleum revenue,508
+2019,restricted petroleum revenue,563.5
+2020,restricted petroleum revenue,605.1
+2021,restricted petroleum revenue,376.4
