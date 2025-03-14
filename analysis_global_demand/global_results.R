@@ -1,16 +1,31 @@
 library(tidyverse)
 
+# location of GCAM database
+db_path <- "my_db_path"
+# names of GCAM databases
+db_name <- "my_db_name"
+
+# unit conversions
 million_barrel_to_barrel <- 1e6
 barrel_to_btu <- 5.8e6
 btu_to_EJ <- 1.055e-15
-
 million_barrel_to_EJ <- million_barrel_to_barrel*barrel_to_btu*btu_to_EJ
-
 usd_1975_to_2015 <- 3.507477
-
 EJ_to_GJ <- 1e9
 
-prj_global <- rgcam::loadProject("rgcam_data/prj_year4_global")
+
+# whether to reread GCAM results from a database
+# (if not, use existing rgcam project file)
+reread_db <- F
+
+# read database or load rgcam project file
+if(reread_db){
+  conn <- rgcam::localDBConn(db_path, db_name)
+  prj_global <- rgcam::addScenario(conn, "prj_global",
+                            "queries/global_queries.xml")
+} else{
+  prj_global <- rgcam::loadProject("rgcam_data/prj_global")
+}
 
 
 # primary energy consumption ---------------------------------------------------

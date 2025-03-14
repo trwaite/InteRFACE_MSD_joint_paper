@@ -1,0 +1,120 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<queries>
+
+<aQuery>
+    <region name="AK"/>
+        <gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">nationalAccount[@year]</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">nationalAccount/account[@name = 'gdp-per-capita']/node()</xPath>
+            <comments/>
+        </gdpQueryBuilder>
+</aQuery>
+
+<aQuery>
+    <region name="AK"/>
+        <demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments/>
+        </demographicsQuery>
+</aQuery>
+
+<aQuery>
+    <region name="AK"/>
+        <demographicsQuery title = "subregional income-resid">
+            <axis1 name = "region">region</axis1>
+            <axis2 name = "Year">subregional-percapita-income</axis2>
+            <xPath buildList = "true" dataName = "subregional-percapita-income" group = "false" sumAll = "false">gcam-consumer[contains(@name,'resid')]/subregional-percapita-income/node()</xPath>
+            <comments/>
+        </demographicsQuery>
+</aQuery>
+
+<aQuery>
+    <region name="AK"/>
+        <supplyDemandQuery title = "prices by sector">
+            <axis1 name = "sector">sector</axis1>
+            <axis2 name = "Year">cost</axis2>
+            <xPath
+                buildList = "true"
+                dataName = "Price"
+                group = "false"
+                sumAll = "false">*[@type = 'sector']/cost/text()</xPath>
+            <comments/>
+        </supplyDemandQuery>
+</aQuery>
+
+<aQuery>
+    <region name="AK"/>
+        <supplyDemandQuery title = "building floorspace">
+            <axis1 name = "building">gcam-consumer[@name]</axis1>
+            <axis2 name = "Year">floorspace[@year]</axis2>
+            <xPath
+                buildList = "true"
+                dataName = "floorspace"
+                group = "false"
+                sumAll = "false">gcam-consumer//floorspace/node()</xPath>
+            <comments/>
+        </supplyDemandQuery>
+</aQuery>
+
+<aQuery>
+    <region name="AK"/>
+        <supplyDemandQuery title = "building service output by service">
+            <axis1 name = "sector">sector</axis1>
+            <axis2 name = "Year">physical-output[@vintage]</axis2>
+            <xPath
+                buildList = "true"
+                dataName = "output"
+                group = "false"
+                sumAll = "false">
+                *[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]//
+                output-primary[@type='output' (:collapse:)]/
+                physical-output/node()
+            </xPath>
+            <comments/>
+        </supplyDemandQuery>
+</aQuery>
+
+<aQuery>
+    <region name="AK"/>
+        <supplyDemandQuery title="building internal gain energy by service">
+    		<axis1 name="sector">sector</axis1>
+    		<axis2 name="Year">physical-output[@vintage]</axis2>
+    		<xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector']//internal-gains[@type='output']/physical-output/node()</xPath>
+    		<comments/>
+	</supplyDemandQuery>
+</aQuery>
+
+<aQuery>
+    <region name="AK"/>
+                <supplyDemandQuery title="building costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and contains(@name, 'resid') or contains(@name, 'comm')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+                    <comments/>
+                </supplyDemandQuery>
+</aQuery>
+
+<aQuery>
+    <region name="Alaska grid"/>
+            <marketQuery title="refined liquids enduse price">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name, 'refined liquids enduse')]/price/node()</xPath>
+                <comments/>
+            </marketQuery></aQuery>
+
+<aQuery>
+    <region name="AK"/>
+        <marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments/>
+        </marketQuery>
+</aQuery>
+
+
+</queries>

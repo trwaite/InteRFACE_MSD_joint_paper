@@ -1,7 +1,14 @@
 library(tidyverse)
 
+# input data
 input_data_dir <- "analysis_resid_energy/resid_energy_demand_inputs"
 
+# location of GCAM database
+db_path <- "my_db_path"
+# names of GCAM databases
+db_name <- "my_db_name"
+
+# conversions
 diesel_gal_to_Btu <- 128488
 Btu_to_GJ <- 1.055e-6
 tonne_per_kg <- 10^-3
@@ -11,11 +18,22 @@ tonne_per_kg <- 10^-3
 NSB_satiation_level <- 1.018
 NAB_satiation_level <- 0.908
 
+# whether to reread GCAM results from a database
+# (if not, use existing rgcam project file)
+reread_db <- F
+
 # load inputs ------------------------------------------------------------------
 
 ## GCAM outputs and gcamdata inputs ============================================
 
-prj_resid <- rgcam::loadProject("rgcam_data/prj_year4_resid_energy")
+if(reread_db){
+  conn <- rgcam::localDBConn(db_path, db_name)
+  prj_resid <- rgcam::addScenario(conn, "prj_resid_energy",
+                                  "queries/resid_energy_queries.xml")
+} else{
+  prj_resid <- rgcam::loadProject("rgcam_data/prj_resid_energy")
+}
+
 
 # read in shell conductance and floor to surface ratio from gcamdata input
 shell_conduct_floor_ratio <- as_tibble(read.csv(paste0(input_data_dir,
@@ -194,6 +212,18 @@ heating_burden <- heating_expenditures %>%
 
 
 # make figures -----------------------------------------------------------------
+
+## floorspace ==================================================================
+# AK d1 projected per-capita floorspace demand
+pc_flsp %>%
+  filter(scenario == "Ref", year >= 2015) %>%
+  ggplot(aes(x = year, y = pc_flsp)) +
+  geom_line() +
+  theme_bw() +
+  xlab("") + ylab("Per-capita floorspace (m^2)")
+
+ggsave("figures/pc_flsp.png", width = 7, height = 4, units = "in")
+
 
 ## HDD =========================================================================
 

@@ -4,18 +4,24 @@
 
 library(tidyverse)
 
+# location of GCAM database
+db_path <- "my_db_path"
+# names of GCAM databases
+db_name <- "my_db_name"
+
 source("utils/extended_gdp_deflator.R")
 
 # unit conversions
 million_barrel_to_barrel <- 1e6
 barrel_to_btu <- 5.8e6
 btu_to_EJ <- 1.055e-15
-
 million_barrel_to_EJ <- million_barrel_to_barrel*barrel_to_btu*btu_to_EJ
-
 usd_1975_to_2015 <- 3.507477
-
 EJ_to_GJ <- 1e9
+
+# whether to reread GCAM results from a database
+# (if not, use existing rgcam project file)
+reread_db <- F
 
 # ..............................................................................
 # load data  -------------------------------------------------------------------
@@ -27,12 +33,14 @@ source("analysis_oil_revenue/revenue_models.R")
 # read in model coefficients
 model_coefs <- read_csv("analysis_oil_revenue/model_coefs.csv")
 
-# load data
-# if on pic
-#prj <- rgcam::loadProject("rgcam_year4_paper/prj_year4_oil_all")
-
-# if local, use path to downloaded proj file
-prj <- rgcam::loadProject("rgcam_data/prj_year4_oil_all")
+# read database or load rgcam project file
+if(reread_db){
+  conn <- rgcam::localDBConn(db_path, db_name)
+  prj <- rgcam::addScenario(conn, "prj_oil_revenue",
+                                  "queries/oil_queries.xml")
+} else{
+  prj <- rgcam::loadProject("rgcam_data/prj_oil_revenue")
+}
 
 # read in historical revenue data
 historical_revenue <- read.csv("historical_data/oil_gas_revenue_historical.csv") %>%

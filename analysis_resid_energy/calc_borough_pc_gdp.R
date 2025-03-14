@@ -1,7 +1,7 @@
 source("utils/extended_gdp_deflator.R")
 USD_2022_to_1975 <- 0.234460479
 def90_75<-2.212
-prj_resid <- rgcam::loadProject("rgcam_data/prj_year4_resid_energy")
+
 
 # get GCAM AK decile 1 per capita GDP projections ------------------------------
 subregional_income <- rgcam::getQuery(prj_resid, "subregional income-resid")
@@ -83,22 +83,25 @@ write_csv(borough_gdppc_scaled, "analysis_resid_energy/resid_energy_demand_input
 ggplot() +
   geom_line(data = borough_gdppc_scaled %>%
               full_join(subregional_income_1975dollar %>%
-                          filter(group %in% c("d1", "d2"))) %>%
+                          #filter(group %in% c("d1", "d2"))
+                        filter(group %in% c("d1"))) %>%
               filter(scenario == "Ref", year >= 2015) %>%
               mutate(gdppc.grp = gdppc.grp/USD_2022_to_1975,
                      region = case_when(region == "AK" & group == "d1" ~ "AK d1 (GCAM-USA)",
-                                        region == "AK" & group == "d2" ~ "AK d2 (GCAM-USA)",
+                                        #region == "AK" & group == "d2" ~ "AK d2 (GCAM-USA)",
                                         T ~ region)),
-            aes(x = year, y = gdppc.grp, color = region, lty = region)) +
-  scale_color_manual(values = c("black", "black",
+            aes(x = year, y = gdppc.grp, color = region,
+                #lty = region
+                )) +
+  scale_color_manual(values = c("black",
                                 jgcricolors::jgcricol()$pal_16[c(2,3)]),
                      name = "") +
-  scale_linetype_manual(values = c(1, 2, 1, 1), name = "") +
+  #scale_linetype_manual(values = c(1, 2, 1, 1), name = "") +
   geom_point(data = borough_income %>% mutate(year = 2020),
              aes(x = year, y = pc_income, color = borough)) +
   guides(color = guide_legend(override.aes = list(shape = NA)))+
   theme_bw() +
-  xlab("Year") + ylab("Per capita GDP (2022$)")
+  xlab("") + ylab("Per capita GDP (2022$)")
 
 ggsave("figures/borough_projected_pcGDP.png",
-       width = 6, height = 4, units = "in")
+       width = 7, height = 4, units = "in")

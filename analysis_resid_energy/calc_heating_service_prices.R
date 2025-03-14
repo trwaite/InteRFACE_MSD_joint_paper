@@ -89,3 +89,24 @@ price_fuel_furnace <- prices %>%
 write_csv(price_fuel_furnace, "analysis_resid_energy/resid_energy_demand_inputs/price_fuel_furnace.csv")
 
 
+# figure: community heating fuel prices vs GCAM price --------------------------
+fuel_price_compare$borough <-
+  factor(fuel_price_compare$borough,
+         levels = c("NAB", "NSB", "GCAM Ref (AK)"),
+         labels = c("Northwest Arctic Borough", "North Slope Borough", "GCAM Ref (AK)"))
+
+ggplot() +
+  geom_point(data = fuel_price_compare %>% filter(borough != "GCAM Ref (AK)"),
+             aes(x = year, y = value, color = borough), alpha = 0.3) +
+  geom_line(data = fuel_price_compare %>% filter(borough != "GCAM Ref (AK)"),
+            aes(x = year, y = median_price, color = borough)) +
+  geom_hline(data = fuel_price_compare %>% filter(borough == "GCAM Ref (AK)"),
+             aes(yintercept = value), lty = 2) +
+  theme_bw() +
+  coord_cartesian(xlim = c(2005, 2023), clip = 'off') +
+  theme(plot.margin = unit(c(1,3,1,1), "lines")) +
+  scale_color_discrete(name = "") +
+  geom_text(aes(x = 2027.5, y = 3.474, label = "GCAM-USA AK 2015")) +
+  xlab("") + ylab("Heating fuel price (2015$/gallon)")
+
+ggsave("figures/fuel_price_compare.png", width = 8, height = 4, units = "in")

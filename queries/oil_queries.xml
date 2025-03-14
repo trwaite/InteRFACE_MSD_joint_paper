@@ -1,0 +1,26 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<queries>
+
+<aQuery>
+    <region name="AK"/>
+            <marketQuery title="AK crude oil price">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and @name="AKcrude oil"]/price/node()</xPath>
+                <comments/>
+            </marketQuery>
+</aQuery>
+
+<aQuery>
+    <region name="AK"/>
+            <supplyDemandQuery title="crude oil production">
+                <axis1 name="subresource">subresource</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource' and @name='crude oil']/*[@type='subresource']//
+            output-primary[@type='output' (:collapse:)]/physical-output/node()</xPath>
+                <comments/>
+                <showAttribute attribute-name="year" level="technology"/>
+            </supplyDemandQuery>
+</aQuery>
+
+</queries>
