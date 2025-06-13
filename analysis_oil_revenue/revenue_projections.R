@@ -182,7 +182,7 @@ AK_oil_price_plot$scenario <-
              aes(x = year, y = value)) +
   scale_linetype_manual(values = c("solid", "solid", "dashed", "dashed"),
                         name = "Scenario") +
-  scale_color_manual(values = c("#56B4E9", "#E69F00", "#56B4E9", "#E69F00"),
+  scale_color_manual(values = c("#E69F00", "#56B4E9", "#E69F00", "#56B4E9"),
                      name = "Scenario") +
   scale_x_continuous(breaks = c(1980, 2020, 2060)) +
   theme_bw() +
