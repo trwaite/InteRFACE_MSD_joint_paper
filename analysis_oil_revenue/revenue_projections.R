@@ -248,9 +248,9 @@ ggplot() +
                 filter(year >= 2020, climate_impacts),
               aes(x = year, ymin = ens_min/1000, ymax = ens_max/1000,
                   fill = scenario), alpha = 0.3) +
-  scale_color_manual(values = c("#56B4E9", "#E69F00", "#56B4E9", "#E69F00"),
+  scale_color_manual(values = c("#E69F00", "#56B4E9", "#E69F00", "#56B4E9"),
                      name = "Scenario") +
-  scale_fill_manual(values = c("#56B4E9", "#E69F00", "#56B4E9", "#E69F00"),
+  scale_fill_manual(values = c("#E69F00", "#56B4E9", "#E69F00", "#56B4E9"),
                     name = "Scenario", guide = "none") +
   theme_bw() +
   scale_x_continuous(breaks = c(1980, 2020, 2060)) +
@@ -281,8 +281,8 @@ ggplot() +
   geom_ribbon(data = AK_tax_revenue %>% filter(year >= 2020),
               aes(x = year, ymin = ens_min, ymax = ens_max, fill = scenario),
               alpha = 0.3) +
-  scale_color_manual(values = c("#56B4E9", "#E69F00"), name = "Scenario") +
-  scale_fill_manual(values = c("#56B4E9", "#E69F00"), name = "Scenario") +
+  scale_color_manual(values = c("#E69F00", "#56B4E9"), name = "Scenario") +
+  scale_fill_manual(values = c("#E69F00", "#56B4E9"), name = "Scenario") +
   facet_grid(period~type) +
   theme_bw() +
   scale_x_continuous(n.breaks = 8) +
@@ -311,8 +311,8 @@ ggplot() +
   geom_ribbon(data = AK_tax_revenue_capped %>% filter(year >= 2020),
               aes(x = year, ymin = ens_min/1000, ymax = ens_max/1000, fill = scenario),
               alpha = 0.3) +
-  scale_color_manual(values = c("#56B4E9", "#E69F00"), name = "Scenario") +
-  scale_fill_manual(values = c("#56B4E9", "#E69F00"), name = "Scenario") +
+  scale_color_manual(values = c("#E69F00", "#56B4E9"), name = "Scenario") +
+  scale_fill_manual(values = c("#E69F00", "#56B4E9"), name = "Scenario") +
   facet_grid(period~type) +
   theme_bw() +
   scale_x_continuous(n.breaks = 8) +
