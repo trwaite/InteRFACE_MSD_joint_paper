@@ -113,7 +113,9 @@ global_oil_plot %>%
              group = interaction(scenario, ens))) +
   geom_line() +
   expand_limits(y = 0) +
-  scale_color_manual(values = jgcricolors::jgcricol()$pal_16[c(2,3,2,3)],
+  # scale_color_manual(values = jgcricolors::jgcricol()$pal_16[c(2,3,2,3)],
+  #                    name = "Scenario") +
+  scale_color_manual(values = c("#E69F00", "#56B4E9", "#E69F00", "#56B4E9"),
                      name = "Scenario") +
   scale_linetype_manual(values = c("solid", "solid", "dashed", "dashed"),
                         name = "Scenario") +
